@@ -15,6 +15,9 @@ main:
   - title: "Join US"
     url: /join_us/
 
+  - title: "CN"
+    url: https://safari-lab-cn.github.io/
+  
 #  - title: "Talks"
 #    url: /talks/    
 
