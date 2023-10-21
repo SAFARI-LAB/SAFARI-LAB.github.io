@@ -1,0 +1,25 @@
+---
+layout: archive
+title: "Research"
+permalink: /research/
+author_profile: true
+---
+
+
+<body>
+  <h1>Research Orientation 1</h1>
+  <p>Detials about Research Orientation 1</p>
+  <h1>Research Orientation 2</h1>
+  <p>Detials about Research Orientation 2</p>
+  <h1>Research Orientation 3</h1>
+  <p>Detials about Research Orientation 3</p>
+</body>
+
+
+{% comment %}
+{% include base_path %}
+
+{% for post in site.teaching reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+{% endcomment %}

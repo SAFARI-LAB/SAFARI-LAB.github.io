@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "SAFARI Lab"
+  name             : "SAFARI"
   avatar           : "log_0921.png"
   bio              : 
   location         : "Tianjin, China"
@@ -175,7 +175,7 @@ kramdown:
 
 # Collections
 collections:
-  researches:
+  research:
     output: true
     permalink: /:collection/:path/
   publications:
@@ -223,7 +223,7 @@ defaults:
   # researches
   - scope:
       path: ""
-      type: researches
+      type: research
     values:
       layout: single
       author_profile: true
